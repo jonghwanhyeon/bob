@@ -1,0 +1,6 @@
+dict-logic
+flask
+gunicorn
+numpy
+opencv-python
+requests
