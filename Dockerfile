@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 EXPOSE 80
-CMD ["gunicorn", "--bind=0.0.0.0:80", "--access-logfile=-", "bob:create_app"]
+CMD ["gunicorn", "--bind=0.0.0.0:80", "--access-logfile=-", "bob:create_app()"]
